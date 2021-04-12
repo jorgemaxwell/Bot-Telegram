@@ -22,7 +22,6 @@ def report():
 
     return format_result
 
-test_bot = bot_send_text('¡Hola, gordi!')
 
 if __name__ == '__main__':
     schedule.every().day.at('15:46').do(report)
